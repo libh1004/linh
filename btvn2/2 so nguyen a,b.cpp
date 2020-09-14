@@ -6,8 +6,9 @@ int main(){
 	printf("nhap b=");
 	scanf("%d",&b);
 	if(a>=b){
-		printf("a/b \n");		
+		printf("a*b=%d",a*b);	
 	}else{
-		printf("a*b \n");
+		printf("a/b=%d",a/b);
 	}
 }
+
